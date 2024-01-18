@@ -24,6 +24,8 @@ def menu():
         print("Opção incorreta! Insira nova opção.")
         print("[1] Inseração de valores \n[2] Cálculo idade \n[3] Sair")
         op=str(input("Insira uma opção: "))
+    print("Escolhe a opção",op)
     return op
+
 
 
